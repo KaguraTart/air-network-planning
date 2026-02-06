@@ -1,0 +1,52 @@
+# Python虚拟环境
+venv/
+.venv/
+env/
+.env/
+
+# 编译生成的文件
+*.pyc
+__pycache__/
+
+# IDE相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 打包相关文件
+build/
+dist/
+*.egg-info/
+
+# 测试覆盖率
+.coverage
+.coverage.*
+
+# 项目特定文件
+# 大型GIS数据文件
+data/
+# 模型文件
+models/
+
+# 生成的结果文件
+results/
+
+# 临时文件
+*.tmp
+*.temp
