@@ -13,7 +13,6 @@ from pathlib import Path
 生成的5kmX5km三维航路网太大了,有可能没办法渲染打开哦,取决于计算机性能哦!!
 '''
 
-
 # === 1. 配置路径管理 ===
 BASE_DIR = Path(".")
 # 建议确保这里的路径指向正确，例如你的shp文件确实在 data 目录下
@@ -494,5 +493,5 @@ if __name__ == "__main__":
     # 4. 保存为文件
     net.save_network("hangzhou_route_graph.pkl")
     
-    # 5. 生成可视化
-    net.visualize("Route_Network_hangzhou_select.html")
+    # 不需要了
+    # net.visualize("Route_Network_hangzhou_select.html")
